@@ -1,0 +1,43 @@
+body {
+    background-image: url(chicken.png);
+    height: 140vh;
+    width: center;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+
+button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: aquamarine;
+    width: 10%;
+    border: 0;
+    padding: 15px;
+    color: blueviolet;
+    font-size: 18;
+    cursor: pointer;
+  }
+
+button:hover, button:active {
+    background: pink;
+  }
+
+footer {
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height:30px;   /* Height of the footer */
+    background:rgb(185, 206, 216);
+    margin:0px;
+    opacity: 0.8;
+ }
+
+ image {
+    float:right;
+ }
