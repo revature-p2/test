@@ -5,15 +5,21 @@ body {
     background-size: cover;
     background-position: center;
   }
+h2 {
+  color: darkred;
+}
+.container {
+  position: relative; 
+  margin-left: 1000px;
+}
 
 
-
-button {
+#SignIn {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
     background: aquamarine;
-    width: 10%;
+    width: 30%;
     border: 0;
     padding: 15px;
     color: blueviolet;
@@ -36,8 +42,4 @@ footer {
     background:rgb(185, 206, 216);
     margin:0px;
     opacity: 0.8;
- }
-
- image {
-    float:right;
  }

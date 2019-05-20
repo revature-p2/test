@@ -7,11 +7,13 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <img style="float: right; margin: 0px 0px 15px 15px;" src="fist.jpg" alt="fist"></img>
+    <div class="container">
     <h2>Login for OUR Chicken Cloud</h2><br/>
     <h4 id="WelcomeMessage"></h4>
-    <button id="SignIn" onclick="signIn()">Log In</button><br/><br/>
+    <div id="button">
+    <button id="SignIn" onclick="signIn()">Log In</button></div><br/><br/>
     <pre id="json"></pre>
+    </div>
     <script>
         //JS code
         var msalConfig = {//4695b616-04cf-4063-a769-ab51fd8a88fd tenant ID
