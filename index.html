@@ -86,9 +86,9 @@ function graphAPICallback(data) {
 
 function showWelcomeMessage() {
     var divWelcome = document.getElementById('WelcomeMessage');
-    divWelcome.innerHTML = 'Welcome ' + myMSALObj.getAccount().userName + "to Microsoft Graph API";
+    divWelcome.innerHTML = 'Welcome ' + myMSALObj.getAccount().userName + "to the Commune";
     var loginbutton = document.getElementById('SignIn');
-//    loginbutton.innerHTML = 'Sign Out';
+    loginbutton.innerHTML = 'Sign Out';
     loginbutton.setAttribute('onclick', 'signOut();');
     setTimeout(function(){window.location.replace("https://lechickencloudserver.azurewebsites.net/");}, 2500)
 }
