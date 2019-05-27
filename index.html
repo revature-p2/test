@@ -23,7 +23,7 @@
         authority: "https://login.microsoftonline.com/4695b616-04cf-4063-a769-ab51fd8a88fd",
     },
     cache: {
-        cacheLocation: "localStorage",
+        cacheLocation: "sessionStorage",
         storeAuthStateInCookie: true
     }
 };
@@ -90,7 +90,7 @@ function showWelcomeMessage() {
     var loginbutton = document.getElementById('SignIn');
     loginbutton.innerHTML = 'Sign Out';
     loginbutton.setAttribute('onclick', 'signOut();');
-    setTimeout(function(){window.location.replace("https://lechickencloudserver.azurewebsites.net/");}, 2500)
+    setTimeout(function(){window.location.replace("https://ourchickenweb.southcentralus.cloudapp.azure.com");}, 2500)
 }
 
 
